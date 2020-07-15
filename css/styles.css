@@ -91,3 +91,14 @@
     color: var(--light-grey);
     opacity: var(--light-opacity);
 }
+
+.checkbox:checked + .content .label .ball{
+    transform: translate(2.5rem);
+}
+
+.checkbox:checked + .content{
+    --bg: var(--black);
+    --txt: var(--white);
+    --dark-opacity: 1;
+    --light-opacity: 0;
+}
